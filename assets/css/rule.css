@@ -1,0 +1,119 @@
+body{
+    font-family: 'Almarai', sans-serif;
+
+
+}
+.decriptionSection h1{
+    color:#173460;
+    font-size:35px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 50px;
+}
+.decriptionSection h2{
+   color:#000000;
+   font-size:23px; 
+   font-weight: bold;
+   padding-right: 50px;
+
+
+}
+.decriptionSection p{
+    font-size:18px; 
+    font-weight: normal;
+    color:#000000;
+    padding-right: 50px;
+
+
+    
+
+
+}
+
+.footerSection{
+    background: #173460;
+    width: 100%;
+    height: 180px;
+}
+.footerSection .linkFooter{
+    text-align: right;
+    font-size: 14px;
+    color:#ffffff;
+
+}
+.footerSection .nav-link{
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: 40px;
+    padding-left: 5px;
+
+}
+.navFooter{
+    padding-right: 50px;
+}
+
+.footerSection .nav-link:hover{
+    border-bottom: 1px solid #ffffff;
+
+}
+.footerSection .linkFooter:hover{
+    border-bottom: 1px solid #ffffff;
+    text-decoration: none;
+
+
+}
+.footerSection .lastIcon {
+    margin-right: 250px;
+
+}
+.footerSection .lastIcon a{
+    font-size:18px;
+    color:#173460;
+    background: #ffffff;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding:5px 5px;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 15px
+}
+.footerSection .lastIcon a:hover{
+    background:#7fabec;
+
+}
+
+@media (max-width: 992px) { 
+    /* responsive mobiles and small devicess*/
+ 
+.decriptionSection h1{
+    font-size:18px;
+}
+.decriptionSection h2{
+   font-size:16px; 
+}
+.decriptionSection p{
+    font-size: 14px;
+}
+.footerSection{
+    background: #173460;
+    width: 100%;
+    height: 250px;
+}
+.footerSection .lastIcon {
+    margin-left:20px;
+}
+
+
+.ImgAbout img{
+    height: 300px;
+    width:300px;
+    margin-left: 18%;
+
+}
+}
+
+
+
+
+

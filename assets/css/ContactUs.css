@@ -1,0 +1,83 @@
+.ContactSection h1{
+    color:#173460;
+    font-size:35px;
+    font-weight: bold;
+    text-align: right;
+}
+.formDesc input{
+    height: 50px;
+    width: 450px;
+    padding-left:100px;
+    background: #F8F8F8;
+    border: none;
+    border-radius: 10px;
+} 
+.formDesc h2{
+    color :#000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+form{
+    position: relative
+}
+ form .fas {
+    position: absolute;
+    right: 25px;
+    top: 75px;
+    color: #98a0aa;
+
+}
+textarea{
+    background: #F8F8F8;
+    padding: 35px 45px;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+
+}
+.submit{
+    width:300px;
+    height: 53px;
+    background: linear-gradient(to left, #47AAD1 , #218FC2); 
+    border-radius: 40px;
+    margin-right: 70px;
+    font-size:26px;
+}
+.submit:hover{
+    color:#218FC2;
+    background:#F8F8F8;
+}
+
+
+@media (max-width: 992px) { 
+    .formDesc input{
+        height: 50px;
+        width: 300px;
+    } 
+    textarea{
+        height: 100px;
+        width: 300px;
+    }
+    .submit{
+        width:200px;
+        height: 45px;
+        border-radius:30px;
+        margin-right: 50px;
+    }
+    .Navbar2{
+        width: 120%;}
+    .colorNav {
+            margin-right: 5px;}
+    .ImgContactAd{
+        margin-right: -50px;
+    }
+    .footerSection {
+     
+        width: 120%;
+    }
+}
+
+
+
+
+

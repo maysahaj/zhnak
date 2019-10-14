@@ -1,0 +1,213 @@
+body{
+    direction:rtl;
+    font-family: 'Almarai', sans-serif;
+
+    overflow-x: hidden;
+
+
+
+}
+.navbar{
+        width : 100%;
+        padding-left: -50px;
+        position: fixed;
+        background-color: #173460;
+        text-align: right;
+
+    }
+.navbar-light .navbar-nav .nav-link {
+        
+        font-size:18px;
+        color:white;
+        font-weight:normal;
+    }
+.navbar-light .navbar-nav .nav-link {
+        padding-left: 15px;
+    }
+ 
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #ffffff;
+    border-bottom: 1px solid #ffffff;
+}
+
+.mainSectionSlider{
+    width: 100%;
+}
+.IconHead{
+    margin-right: 200px;
+    color:#ffffff;
+}
+.IconHead li{
+    padding-left:20px;
+    font-size: 18px;
+}
+.IconHead li:hover{
+    font-size:20px;
+    color:#7fabec;
+    
+}
+.IconHead span{
+    color: #ffffff;
+    padding-left: 25px;
+    padding-right: 5px;
+
+}
+.logoSection img{
+    margin-top:70px;
+    padding-right: 100px;
+    
+
+}
+.imgAd img{
+    margin-top:65px;
+    margin-left: 65px;
+    margin-bottom:10px;
+
+
+
+}
+.Navbar2{
+    width: 100%;
+    background: #218FC2;
+    height: 70px;
+    line-height: 50px;
+    padding-right: 40px;
+
+
+}
+.colorNav{
+    font-size: 20px;
+    color:#ffffff;
+    padding-left: 12px;
+}
+.colorNav:hover{
+   color: red;
+   
+}
+
+.listslide{
+    margin-bottom: 150px;}
+.listslide p{
+        font-size: 38px;
+}
+.listslide a{
+    font-size: 30px;
+    padding:10px 15px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+.imgslide{
+    opacity: 0.8;
+}
+.sliderSec2{
+    background: #fd4a46;
+
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #64626288 no-repeat center center;
+    background-size: 100% 100%;
+}
+.ArticlesSection{
+    margin-right: 40px;
+}
+
+.card-body {
+    width: 500px;
+    height: 250px;
+    border: 1px solid #173460;
+
+}
+.card-img {
+    width: 240px;
+    height: 250px;
+}
+.card-title {
+    color: #173460;
+}
+
+.card-text{
+    color: #A5A6AD;
+    font-size: 13px;
+}
+.card a{
+    color: #A5A6AD;
+    font-size: 13px;
+}
+.card-body  .navbar-nav  {
+    margin-right: -40px;
+}
+.card a.active{
+    color:yellow;
+}
+.card a:hover{
+    color:yellow;
+}
+.card span{
+    color: #A5A6AD;
+    font-size: 13px;
+}
+
+
+.End-Card{
+    margin-top: 110px;
+    margin-right:-40px;
+
+}
+.Imgadd7{
+    widows: 400px;
+    margin-right: -20px;
+
+}
+
+@media (max-width: 992px) { 
+      /* responsive mobiles and small devicess*/
+.navbar-light .navbar-nav .nav-link,.IconHead li {
+        font-size:14px;
+    }
+.logoSection img{       
+        padding-right: 42%;
+        margin-top:65px;
+    }
+.imgAd img{
+        margin-top:10px;
+        margin-left: 90px;
+        margin-bottom:15px;
+
+    
+    }
+ .colorNav{
+        font-size: 14px;
+        padding-left: 20px;
+        margin-right: -15px;
+
+    }
+.navbar-toggler {
+        padding: .25rem .75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color:#7fabec;
+      
+}
+.IconHead{
+    margin-right: 10px;
+    color:#ffffff;
+}
+.IconHead li{
+    padding-left:0px;
+    font-size: 16px;
+}
+
+}
+
+
+
+
+    
+    

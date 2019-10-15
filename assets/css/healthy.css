@@ -57,3 +57,16 @@
   background-color: #173460;
 
 }
+@media (max-width: 992px) { 
+    .leftSideContent{
+        margin-top:60px;
+    }
+    .leftSideContent img{
+        width:800px;
+        margin-right: 20px;
+    }
+    .leftSideContent h2{
+        font-size:14px;
+
+    }
+}

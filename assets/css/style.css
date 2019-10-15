@@ -137,8 +137,17 @@ color: #A5A6AD;
 .mainSection .triangle ul li a.active,.mainSection .triangle ul li a:hover{
     
     color: yellow;
-    }
+ }
+ .mainSection .triangle .infoDesc{
+     width:200px;
+     height: 70px;
+     overflow: hidden;
 
+ }
+ .mainSection .triangle p{
+    font-size: 12px;
+    color: #A5A6AD;
+    }
 
 
 

@@ -114,28 +114,26 @@ body{
     background: #64626288 no-repeat center center;
     background-size: 100% 100%;
 }
-.ArticlesSection{
-    margin-right: 40px;
-}
 
-.card-body {
-    width: 500px;
-    height: 250px;
-    border: 1px solid #173460;
-
-}
-.card-img {
-    width: 240px;
-    height: 250px;
-}
 
 .mainSection{
     margin-right: 80px;
 }
 .mainSection .triangle{
-    
+    height: 250px;
+    width: 450px;
     border: 1px solid red;
 }
+.mainSection .triangle h2{
+  font-size: 18px;
+}
+.mainSection .triangle ul li{
+    margin-left: -100px;
+}
+
+
+
+
 
 @media (max-width: 992px) { 
       /* responsive mobiles and small devicess*/

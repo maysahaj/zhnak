@@ -156,6 +156,15 @@ a.active{
     top: 120px;
     border-radius: 5px;
 }
+.comments h4{
+    color:#218FC2;
+    font-size: 25px;
+    font-weight: bold;
+}
+.comments p{
+    color:#000000;
+    font-size: 20px;
+}
 
 @media (max-width: 992px) { 
   

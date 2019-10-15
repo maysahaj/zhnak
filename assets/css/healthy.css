@@ -1,0 +1,54 @@
+.healthySection{
+    margin-right: 80px;
+
+}
+.healthySection .rightSideContent h3{
+    font-weight: bold;
+    color:#173460;
+    font-size: 16px;
+
+
+}
+.rightSideContent img{
+    position: relative;
+
+}
+.rightSideContent span{
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #218FC2;
+    position: absolute;
+    padding:5px 15px;
+    right: 150px;
+    top: 100px;
+    border-radius: 5px;
+}
+.pagination{
+    margin-right: 32%;
+
+}
+
+.pagination a {
+    height:63px;
+    width: 63px ;
+  color: black;
+  padding: 14px 26px;
+  text-decoration: none;
+  transition: background-color .3s;
+  margin: 0 4px;
+  font-size:24px;
+  border-radius: 20%;
+  border: 1px solid #E8E9EC;
+
+
+}
+
+ .pagination a:hover{
+  background-color: #173460;
+  color: white;
+  border: 1px solid #173460;
+}
+.page-item.active .page-link {
+  background-color: #173460;
+
+}

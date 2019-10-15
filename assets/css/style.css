@@ -127,9 +127,17 @@ body{
 .mainSection .triangle h2{
   font-size: 18px;
 }
-.mainSection .triangle ul li{
-    margin-left: -100px;
+.mainSection .triangle ul li a{
+font-size: 14px;
+color: #A5A6AD;
 }
+.mainSection .triangle ul {
+    margin-right: -32px;
+}
+.mainSection .triangle ul li a.active,.mainSection .triangle ul li a:hover{
+    
+    color: yellow;
+    }
 
 
 

@@ -42,6 +42,11 @@
 
 
 }
+.pagination h5{
+    color: #4D4F5C;
+    font-size: 30px;
+    text-align: center;
+}
 
  .pagination a:hover{
   background-color: #173460;

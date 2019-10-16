@@ -192,11 +192,11 @@ color: #A5A6AD;
         color:#173460;
         font-size: 16px;
     }
-    .health img{
+.health img{
         position: relative;
     
     }
-    .health span{
+.health span{
         font-size: 14px;
         color: #FFFFFF;
         background: #218FC2;
@@ -207,7 +207,17 @@ color: #A5A6AD;
         border-radius: 5px;
     }
   
+.SpanTypes span{
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #218FC2;
+    position: absolute;
+    padding:5px 15px;
+    right: 165px;
+    top: 100px;
+    border-radius: 5px;
 
+}
 @media (max-width: 992px) { 
       /* responsive mobiles and small devicess*/
 .navbar-light .navbar-nav .nav-link,.IconHead li {

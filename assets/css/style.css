@@ -162,7 +162,7 @@ color: #A5A6AD;
     font-size: 12px;
     color: #A5A6AD;
     }
-.mainSection .triangle span,a{
+.mainSection .triangle span{
         font-size: 13px;
         color: #A5A6AD;
     }
@@ -170,6 +170,11 @@ color: #A5A6AD;
         font-size: 13px;
         color: #A5A6AD;
         padding-left: 5px;
+    }
+    .mainSection .triangle  .lastLine a{
+        font-size: 14px;
+        color: #A5A6AD;
+  
     }
  .lastLine{
         margin-top:70px;
@@ -201,7 +206,9 @@ color: #A5A6AD;
         top: 190px;
         border-radius: 5px;
     }
-
+.health p{
+    
+}
 
 
 

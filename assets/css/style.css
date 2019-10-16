@@ -1,11 +1,17 @@
 body{
     direction:rtl;
-    font-family: 'Almarai', sans-serif;
+	font-family: 'NotoKufiArabic-regular';
 
     overflow-x: hidden;
 
 
-
+}
+@font-face {
+	font-family: 'NotoKufiArabic-regular';
+	src: url('../fonts/ArbFONTS-22015-notokufiarabic-regular.ttf');
+	src: local('☺'),  url('../fonts/ArbFONTS-22015-notokufiarabic-regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 .navbar{
         width : 100%;
@@ -22,7 +28,7 @@ body{
         font-weight:normal;
     }
 .navbar-light .navbar-nav .nav-link {
-        padding-left: 15px;
+        padding-left: 10px;
     }
  
 .navbar-light .navbar-nav .nav-link:hover{

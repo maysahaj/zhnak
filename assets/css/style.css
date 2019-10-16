@@ -255,7 +255,23 @@ color: #A5A6AD;
     padding-left:0px;
     font-size: 16px;
 }
+.carousel-inner {
+    width: 150%;
+}
+.mainSection{
+    margin-right: 250px;
 
+}
+.row1{
+    margin-top:10px;
+}
+.addSection img{
+    margin-left:400px;
+
+}
+.footerSection{
+    widows: 150%;
+}
 }
 
 
